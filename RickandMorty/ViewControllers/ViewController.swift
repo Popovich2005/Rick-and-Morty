@@ -27,7 +27,7 @@ extension ViewController {
                 return
             }
             do {
-                let rickAndMortys = try JSONDecoder().decode(Characters.self, from: data)
+                let rickAndMortys = try JSONDecoder().decode(AllCharacter.self, from: data)
                 print(rickAndMortys)
 
             } catch {
